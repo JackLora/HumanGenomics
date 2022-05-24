@@ -18,14 +18,12 @@
 \usepackage{multicol}
 \usepackage[ruled,vlined]{algorithm2e}
 \usepackage{soul}
-\usepackage{mhchem}
 \usepackage[toc, page]{appendix}
 \usepackage{float}
 \usepackage{wrapfig}
 \usepackage{braket}
 \usepackage{xcolor}
 \usepackage{mathtools}
-\usepackage{physics}
 \usepackage{float}
 \usepackage{subcaption}
 \usepackage{tgbonum}
@@ -58,11 +56,17 @@
 
 \renewcommand{\lstlistingname}{}% Listing -> Algorithm
 \renewcommand{\lstlistlistingname}{Algoritmi}% List of Listings -> List of Algorithms
-
-
 \renewcommand*{\listalgorithmcfname}{}
 \renewcommand*{\algorithmcfname}{}
 \renewcommand*{\algorithmautorefname}{}
 \renewcommand{\thealgocf}{}
 \newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
 %\renewcommand{\familydefault}{\rmdefault}
+
+% %to use MINTED
+% \usepackage{xcolor}
+% \definecolor{bgcode}{RGB}{230, 230, 230}  % Bkg color for code block 70 70 70
+% \usepackage{minted}
+% \usemintedstyle{sas}  % Style for code block
+% \usepackage{lmodern}  % To allow bold font inside code block
+% \setminted{bgcolor=bgcode}
